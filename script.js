@@ -15,7 +15,7 @@ calc.addEventListener('click', function(event) {
         case '=':
             if(result.innerHTML.search(/[^0-9*/+-.]/mi) != -1) return;
             
-            result.innerText = eval(result.innerHTML)
+            result.innerText = eval(result.innerHTML);
             break;
 
         default:
@@ -23,6 +23,6 @@ calc.addEventListener('click', function(event) {
     }
 
     if(result.innerHTML === "Infinity") {
-        result.innerHTML = "Ділити на 0 не можна"
+        result.innerHTML = "Ділити на 0 не можна";
     }  
-})
+});

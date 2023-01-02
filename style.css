@@ -61,20 +61,17 @@ body {
 }
 
 .calc-btn:hover {
-    font-size: 45px;
     color: rgb(83, 166, 238);
 }
 
-.calc-btn:active {
-    text-shadow: 0 0 5px white, 0 0 10px rgb(0, 213, 255), 0 0 15px rgb(83, 166, 238), 0 0 20px white;
+.calc-btn-operator:hover {
+    color: rgb(235, 151, 33);
 }
 
 .calc-btn-reset:hover {
-    font-size: 45px;
     color: rgb(238, 83, 83);
 }
 
-.calc-btn-reset:active {
-    text-shadow: 0 0 5px white, 0 0 10px rgb(255, 0, 0), 0 0 15px rgb(238, 83, 83), 0 0 20px white;
+.calc-btn:active {
+    font-size: 30px;
 }
-
